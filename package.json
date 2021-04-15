@@ -1,0 +1,29 @@
+{
+  "name": "glowing-spork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedediahriley/glowing-spork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedediahriley/glowing-spork/issues"
+  },
+  "homepage": "https://github.com/jedediahriley/glowing-spork#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "slugify": "^1.5.0"
+  }
+}
